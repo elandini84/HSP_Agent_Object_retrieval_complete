@@ -1,0 +1,70 @@
+{
+  "name": "5bbd28e9-78d5-4a8b-89a6-10f46569305e",
+  "displayName": "wait_task_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "human_says_findObject",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(search $session.params.searchableVal) (say \"Ok, vado a cercare $intent.params.articlesVal.original $intent.params.searchableVal.original\")", "(search $session.params.searchableVal) (say \"Ok, vado a vedere se trovo $intent.params.articlesVal.original $intent.params.searchableVal.original\")", "(search $session.params.searchableVal) (say \"Ok, guardo un po' in giro per vedere se trovo $intent.params.articlesVal.original $intent.params.searchableVal.original\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "searchableVal_orig",
+        "value": "$intent.params.searchableVal.original"
+      }, {
+        "parameter": "articlesval_orig",
+        "value": "$intent.params.articlesVal.original"
+      } ]
+    },
+    "targetPage": "wait_completion_page",
+    "name": "89e57226-05b2-4685-a5bb-1a91f8882e63"
+  }, {
+    "intent": "human_says_findObjectThere",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(search $session.params.searchableVal $session.params.thereVal) (say \"Ok, vado a cercare $intent.params.articlesVal.original $intent.params.searchableVal.original in $intent.params.thereVal.original\")", "(search $session.params.searchableVal $session.params.thereVal) (say \"Ok, vado a vedere se trovo $intent.params.articlesVal.original $intent.params.searchableVal.original in $intent.params.thereVal.original\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "searchableVal_orig",
+        "value": "$intent.params.searchableVal.original"
+      }, {
+        "parameter": "articlesVal_orig",
+        "value": "$intent.params.articlesVal.original"
+      }, {
+        "parameter": "targetLocationVal_orig",
+        "value": "$intent.params.thereVal.original"
+      } ]
+    },
+    "targetPage": "wait_completion_page",
+    "name": "668eafaa-6739-4ad1-b2e7-73ab9b3ca311"
+  }, {
+    "intent": "human_says_goThere",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(go $session.params.destinationVal) (say \"Ok, vado in $intent.params.destinationVal.original\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "targetLocationVal_orig",
+        "value": "$intent.params.destinationVal.original"
+      } ]
+    },
+    "targetPage": "wait_completion_page",
+    "name": "70afe4f9-44f2-473c-86b3-25d7307a2218"
+  } ],
+  "transitionRouteGroups": [ "manage_task", "manage_questions" ],
+  "agentTransitionRouteGroups": [ "manage_system" ]
+}

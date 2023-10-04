@@ -1,0 +1,263 @@
+{
+  "name": "2c242132-345f-427c-91fc-d0f3a0abe721",
+  "displayName": "context test 2",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ciao"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "language_selection_page",
+        "flow": "language_selection_flow"
+      },
+      "textResponses": [ {
+        "text": [ "selectLanguage" ]
+      } ],
+      "currentFlow": {
+        "name": "language_selection_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "italiano"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_sets_language"
+      },
+      "currentPage": {
+        "name": "wait_call_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "setLanguage Italiano" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ehi r1"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_ehyR1"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "ask_task" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "cercami una tazza"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObject"
+      },
+      "currentPage": {
+        "name": "wait_completion_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "search mug" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "object found"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "system_says_found"
+      },
+      "currentPage": {
+        "name": "wait_call_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "back_waiting" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ehi r1"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_ehyR1"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "ask_task" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "non trovo il portatile. cercalo un po' in salotto"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObjectThere"
+      },
+      "currentPage": {
+        "name": "wait_completion_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "search laptop livingroom" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "object not found"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "system_says_notFound"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "ask_further" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "prova a cercare in studio"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObjectThere"
+      },
+      "currentPage": {
+        "name": "wait_completion_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "search laptop study" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "object found"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "system_says_found"
+      },
+      "currentPage": {
+        "name": "wait_call_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "back_waiting" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1694000434,
+    "nanos": 746747000
+  },
+  "testConfig": {
+    "flow": "language_selection_flow",
+    "page": "Start Page"
+  }
+}

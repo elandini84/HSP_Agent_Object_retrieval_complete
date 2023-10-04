@@ -1,0 +1,69 @@
+{
+  "name": "5b31a2af-7454-4fe3-bc08-1c3634eff6ad",
+  "displayName": "manage_questions",
+  "transitionRoutes": [ {
+    "intent": "human_asks_where",
+    "condition": "$session.params.thereVal != \"\" OR $session.params.destinationVal != \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Sto andando in $session.params.targetLocationVal_orig\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "bc92297e-3c82-4043-83a1-e8d6e2045f5b"
+  }, {
+    "intent": "human_asks_what",
+    "condition": "$session.params.searchableVal != \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Sto cercando $session.params.articlesval_orig $session.params.searchableval_orig\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "acfee30c-406e-46e4-8292-b530dc4c18b0"
+  }, {
+    "intent": "human_asks_where",
+    "condition": "$session.params.thereVal = \"\" AND $session.params.destinationVal = \"\"",
+    "triggerFulfillment": {
+      "conditionalCases": [ {
+        "cases": [ {
+          "condition": "$session.params.searchableval = \"\"",
+          "caseContent": [ {
+            "message": {
+              "text": {
+                "text": [ "(say \"Al momento non ho una destinazione specifica\")" ]
+              },
+              "languageCode": "it"
+            }
+          } ]
+        }, {
+          "caseContent": [ {
+            "message": {
+              "text": {
+                "text": [ "(say \"Non sto andando da nessuna parte\")" ]
+              },
+              "languageCode": "it"
+            }
+          } ]
+        } ]
+      } ]
+    },
+    "name": "fc2ffc19-9f37-4149-9167-c99e4212a7c4"
+  }, {
+    "intent": "human_asks_what",
+    "condition": "$session.params.searchableVal = \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Non sto cercando nulla al momento\")", "(say \"Nulla di particolare\")", "(say \"Al momento niente\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "86852b24-b4ec-4c17-8779-b2bb2578e337"
+  } ]
+}

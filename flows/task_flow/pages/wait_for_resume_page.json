@@ -1,0 +1,47 @@
+{
+  "name": "14eeaeab-6a97-456f-a2f2-df48d79642fc",
+  "displayName": "wait_for_resume_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "human_says_resume",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "resume" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "b94c3b9a-e95f-4caf-89fa-d0b9fdf247a8"
+  }, {
+    "intent": "system_says_resumed",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "back_on_track" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "targetPage": "Previous Page",
+    "name": "e497bed6-f5f0-4bf5-b959-dfa7dd864476"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "waiting_resume" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "a95f4fb7-5fe0-4d08-9bcd-cc8d6796e57e"
+  } ],
+  "agentTransitionRouteGroups": [ "manage_system" ]
+}

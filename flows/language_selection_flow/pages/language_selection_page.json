@@ -1,0 +1,45 @@
+{
+  "name": "a5839975-132f-4b66-ba2e-a0be4281b0bc",
+  "displayName": "language_selection_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "(say \"Buongiorno a te. Che lingua vuoi che usi?\")", "(say \"Ciao. Che lingua vuoi che usi?\")", "(say \"Salve. In che lingua vorresti parlare con me?\")" ]
+      },
+      "languageCode": "it"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "human_sets_language",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(setLanguage $session.params.languageCode) (say \"Ok, hai selezionato: $intent.params.languageCode.original\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "skipStart",
+        "value": true
+      } ]
+    },
+    "targetFlow": "task_flow",
+    "name": "2c3a417c-2e7d-414d-8882-65ff7c9ebadb"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Non credo di aver capito. Che lingua vuoi che usi?\")", "(say \"Dovresti indicarmi la lingua da usare...\")", "(say \"Potresti ripetere?\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "aac6ce34-2840-4a1d-a4f3-b15400a2ec80"
+  } ],
+  "agentTransitionRouteGroups": [ "manage_system" ]
+}

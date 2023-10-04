@@ -1,0 +1,365 @@
+{
+  "name": "68c8064c-fb13-48cf-a97a-d6a61465b15e",
+  "displayName": "test_001",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "hola"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "language_selection_flow"
+      },
+      "textResponses": [ {
+        "text": [ "fallback" ]
+      } ],
+      "currentFlow": {
+        "name": "language_selection_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "ciao"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "language_selection_page",
+        "flow": "language_selection_flow"
+      },
+      "textResponses": [ {
+        "text": [ "selectLanguage" ]
+      } ],
+      "currentFlow": {
+        "name": "language_selection_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "italian"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_sets_language"
+      },
+      "currentPage": {
+        "name": "wait_call_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "setLanguage Italian" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "ehi r"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_ehyR1"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "ask_task" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "puoi mica trovarmi la sciarpa?"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObject"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "find sciarpa" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "vai a cercarmi il mestolo"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObject"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "find mestolo" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "vedi se riesci a trovare il mio taccuino"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObject"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "find se riesci a" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "cerca il mio taccuino"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObject"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "find notepad" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "cerca le mie scarpe"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObject"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "find scarpe" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "ricominciamo"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "Non penso di seguirti. Potresti ripetere?" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "riparti"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_restartTask"
+      },
+      "currentPage": {
+        "name": "wait_call_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "do restart" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "trovami gli occhiali"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "wait_call_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "fallback" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "ehi r1"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_ehyR1"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "ask_task" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "trovami gli occhiali"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObject"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "find glasses" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "va a cercarmi la matita"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "human_says_findObject"
+      },
+      "currentPage": {
+        "name": "wait_task_page",
+        "flow": "task_flow"
+      },
+      "textResponses": [ {
+        "text": [ "find matita" ]
+      } ],
+      "currentFlow": {
+        "name": "task_flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1691746539,
+    "nanos": 455923000
+  },
+  "testConfig": {
+    "trackingParameters": [ "searchableVal" ],
+    "flow": "language_selection_flow",
+    "page": "Start Page"
+  }
+}

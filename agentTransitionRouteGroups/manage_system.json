@@ -1,0 +1,51 @@
+{
+  "name": "724207fa-9fd4-4c31-8c58-3d1b1ff1ac1e",
+  "displayName": "manage_system",
+  "transitionRoutes": [ {
+    "intent": "human_says_resetSystem",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "language",
+        "value": ""
+      }, {
+        "parameter": "find_verbsval",
+        "value": ""
+      }, {
+        "parameter": "prepositionval",
+        "value": ""
+      }, {
+        "parameter": "articlesval",
+        "value": ""
+      }, {
+        "parameter": "goBack",
+        "value": false
+      }, {
+        "parameter": "resetSystem",
+        "value": true
+      }, {
+        "parameter": "thereval",
+        "value": ""
+      }, {
+        "parameter": "searchableval",
+        "value": ""
+      }, {
+        "parameter": "find_verbsAskedVal",
+        "value": ""
+      }, {
+        "parameter": "go_verbsAskedVal",
+        "value": ""
+      }, {
+        "parameter": "searchableval_orig",
+        "value": ""
+      }, {
+        "parameter": "destinationval",
+        "value": ""
+      }, {
+        "parameter": "targetlocationval_orig",
+        "value": ""
+      } ]
+    },
+    "targetFlow": "language_selection_flow",
+    "name": "84d9b227-d9c8-48e2-a225-6eeb9ccfc7d0"
+  } ]
+}

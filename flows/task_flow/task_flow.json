@@ -1,0 +1,40 @@
+{
+  "name": "e3bdfd74-9796-49fd-ba1b-4c027ca97f65",
+  "displayName": "task_flow",
+  "transitionRoutes": [ {
+    "condition": "$session.params.skipStart = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "wait_call_page",
+    "name": "4f77c829-cc75-43a3-b6c3-a646d136a0ee"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Mi spiace, non ho capito\")", "(say \"Potresti cortesemente ripetere?\")", "(say \"Chiedo scusa?\")", "(say \"Non credo di aver capito. Potresti ripetere, per favore?\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "c4550070-69d6-4532-b59a-9188426c1eaf"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Non credo di aver sentito bene\")", "(say \"Puoi ripetere, per favore?\")", "(say \"Deve esserci stato un problema... Non ho sentito nulla\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "08db38cd-7247-469a-8365-fc0118086ea5"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

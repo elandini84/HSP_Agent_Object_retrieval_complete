@@ -1,0 +1,51 @@
+{
+  "name": "2f31e4f2-af00-45c0-9997-4ef6f5fae719",
+  "displayName": "manage_task",
+  "transitionRoutes": [ {
+    "intent": "human_says_stop",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(stop) (say \"Ok, ricevuto. Dimmi tu quando riprendere\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "targetPage": "wait_for_resume_page",
+    "name": "900b2632-1f60-4f68-a7f3-4300ae205df9"
+  }, {
+    "intent": "human_says_restartTask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(reset) (say \"Ok, ricevuto. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "destinationVal",
+        "value": ""
+      }, {
+        "parameter": "thereVal",
+        "value": ""
+      }, {
+        "parameter": "searchableVal",
+        "value": ""
+      }, {
+        "parameter": "find_verbsVal",
+        "value": ""
+      }, {
+        "parameter": "goVal",
+        "value": ""
+      }, {
+        "parameter": "destinationVal_orig",
+        "value": ""
+      }, {
+        "parameter": "searchableVal_orig",
+        "value": ""
+      } ]
+    },
+    "targetPage": "wait_call_page",
+    "name": "1a92cff0-6d9c-4fc7-8436-4ed5eac78391"
+  } ]
+}

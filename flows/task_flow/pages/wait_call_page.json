@@ -1,0 +1,49 @@
+{
+  "name": "2a479438-553e-4943-88cf-3c86dc910e29",
+  "displayName": "wait_call_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "skipStart",
+      "value": false
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "human_says_ehyR1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Sì? Come posso aiutarti?\")", "(say \"Dimmi pure\")", "(say \"Sì? Ti serve qualcosa?\")", "(say \"Eccomi! Come posso esserti d'aiuto?\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "destinationVal",
+        "value": ""
+      }, {
+        "parameter": "thereVal",
+        "value": ""
+      }, {
+        "parameter": "searchableVal",
+        "value": ""
+      } ]
+    },
+    "targetPage": "wait_task_page",
+    "name": "52b6853b-b690-46a1-95c0-7e4a9bbd2f64"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Se vuoi iniziare una conversazione prova a dire: Ehi R1!\")", "(say \"Non ho capito bene. Volevi qualcosa? Prova a dirmi: Ehi R1\")", "(say \"Mi spiace, non ho capito. Se stavi parlando con me, prova a dirmi: Ehi R1\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "6f8256d3-a2e3-463e-9c69-3dec60c5214f"
+  } ],
+  "agentTransitionRouteGroups": [ "manage_system" ]
+}

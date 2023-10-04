@@ -1,0 +1,81 @@
+{
+  "name": "2c4f6fe0-3b65-478f-af60-f86c58952394",
+  "displayName": "wait_completion_page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "system_says_notFound",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Non ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Cosa devo fare?\")", "(say \"Non ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Cosa vuoi che faccia?\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "targetPage": "wait_task_page",
+    "name": "53c5cf11-4cfb-4e38-9cd0-3ffeda0bc7b0"
+  }, {
+    "intent": "system_says_found",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(navpos) (say \"Ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Ti serve altro?\")", "(navpos) (say \"Ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Vuoi che faccia altro?\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "searchableVal",
+        "value": ""
+      }, {
+        "parameter": "thereVal",
+        "value": ""
+      }, {
+        "parameter": "destinationVal",
+        "value": ""
+      } ]
+    },
+    "targetPage": "wait_call_page",
+    "name": "ffb8b021-28bd-4b4b-b91b-728283136cc4"
+  }, {
+    "intent": "system_says_arrived",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "back_waiting_go" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "destinationVal",
+        "value": ""
+      }, {
+        "parameter": "thereVal",
+        "value": ""
+      }, {
+        "parameter": "searchableVal",
+        "value": ""
+      } ]
+    },
+    "targetPage": "wait_call_page",
+    "name": "bc16541f-2b8f-44fe-9ea2-0b5c59ca9feb"
+  }, {
+    "intent": "system_says_navigationFailed",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ask_further_go" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "targetPage": "wait_task_page",
+    "name": "9c01540a-8fbe-4c66-8a06-ba7dc76b6d8e"
+  } ],
+  "transitionRouteGroups": [ "manage_task", "manage_questions" ],
+  "agentTransitionRouteGroups": [ "manage_system" ]
+}
