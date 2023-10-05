@@ -59,5 +59,17 @@
     },
     "targetPage": "wait_completion_page",
     "name": "70afe4f9-44f2-473c-86b3-25d7307a2218"
+  }, {
+    "intent": "human_says_findObject",
+    "triggerFulfillment": {
+    
+    },
+    "name": "f5f31e27-c4a1-435b-afa9-e6d98efe2c10"
+  }, {
+    "intent": "human_says_findObject",
+    "triggerFulfillment": {
+    
+    },
+    "name": "82918abc-d8d0-4e9d-bc4f-0ba6394d67e3"
   } ]
 }
