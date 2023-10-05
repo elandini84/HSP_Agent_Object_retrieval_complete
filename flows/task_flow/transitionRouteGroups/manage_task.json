@@ -18,30 +18,48 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(reset) (say \"Ok, ricevuto. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
+          "text": [ "(resetHome) (say \"Ok, ricevuto. Torneró al mio posto. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
         },
         "languageCode": "it"
       } ],
       "setParameterActions": [ {
-        "parameter": "destinationVal",
+        "parameter": "find_verbsval",
         "value": ""
       }, {
-        "parameter": "thereVal",
+        "parameter": "prepositionval",
         "value": ""
       }, {
-        "parameter": "searchableVal",
+        "parameter": "articlesval",
         "value": ""
       }, {
-        "parameter": "find_verbsVal",
+        "parameter": "goBack",
+        "value": false
+      }, {
+        "parameter": "resetSystem",
+        "value": true
+      }, {
+        "parameter": "thereval",
+        "value": ""
+      }, {
+        "parameter": "searchableval",
         "value": ""
       }, {
         "parameter": "goVal",
         "value": ""
       }, {
-        "parameter": "destinationVal_orig",
+        "parameter": "searchableval_orig",
         "value": ""
       }, {
-        "parameter": "searchableVal_orig",
+        "parameter": "destinationval",
+        "value": ""
+      }, {
+        "parameter": "targetlocationval_orig",
+        "value": ""
+      }, {
+        "parameter": "searchableval_orig",
+        "value": ""
+      }, {
+        "parameter": "articlesval_orig",
         "value": ""
       } ]
     },
@@ -50,7 +68,55 @@
   }, {
     "intent": "human_says_simpleReset",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "(reset) (say \"Ok, ricevuto. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "language",
+        "value": ""
+      }, {
+        "parameter": "find_verbsval",
+        "value": ""
+      }, {
+        "parameter": "prepositionval",
+        "value": ""
+      }, {
+        "parameter": "articlesval",
+        "value": ""
+      }, {
+        "parameter": "goBack",
+        "value": false
+      }, {
+        "parameter": "resetSystem",
+        "value": true
+      }, {
+        "parameter": "thereval",
+        "value": ""
+      }, {
+        "parameter": "searchableval",
+        "value": ""
+      }, {
+        "parameter": "goVal",
+        "value": ""
+      }, {
+        "parameter": "searchableval_orig",
+        "value": ""
+      }, {
+        "parameter": "destinationval",
+        "value": ""
+      }, {
+        "parameter": "targetlocationval_orig",
+        "value": ""
+      }, {
+        "parameter": "searchableval_orig",
+        "value": ""
+      }, {
+        "parameter": "articlesval_orig",
+        "value": ""
+      } ]
     },
     "targetPage": "wait_call_page",
     "name": "99859b19-a20f-41a6-85e4-0ec26bf08e16"
