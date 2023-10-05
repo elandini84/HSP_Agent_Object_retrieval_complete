@@ -66,7 +66,7 @@
         "name": "human_says_ehyR1"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -116,7 +116,7 @@
         "name": "system_says_notFound"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -191,7 +191,7 @@
         "name": "human_says_ehyR1"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -266,7 +266,7 @@
         "name": "human_says_ehyR1"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -316,7 +316,7 @@
         "name": "system_says_notFound"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {

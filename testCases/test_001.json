@@ -84,7 +84,7 @@
         "name": "human_says_ehyR1"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -108,7 +108,7 @@
         "name": "human_says_findObject"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -132,7 +132,7 @@
         "name": "human_says_findObject"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -156,7 +156,7 @@
         "name": "human_says_findObject"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -180,7 +180,7 @@
         "name": "human_says_findObject"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -204,7 +204,7 @@
         "name": "human_says_findObject"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -225,7 +225,7 @@
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -294,7 +294,7 @@
         "name": "human_says_ehyR1"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -318,7 +318,7 @@
         "name": "human_says_findObject"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {
@@ -342,7 +342,7 @@
         "name": "human_says_findObject"
       },
       "currentPage": {
-        "name": "wait_task_page",
+        "name": "wait_request_page",
         "flow": "task_flow"
       },
       "textResponses": [ {

@@ -30,7 +30,7 @@
         "value": ""
       } ]
     },
-    "targetPage": "wait_task_page",
+    "targetPage": "wait_request_page",
     "name": "52b6853b-b690-46a1-95c0-7e4a9bbd2f64"
   } ],
   "eventHandlers": [ {

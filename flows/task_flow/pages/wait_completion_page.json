@@ -17,7 +17,7 @@
         "languageCode": "it"
       } ]
     },
-    "targetPage": "wait_task_page",
+    "targetPage": "wait_request_page",
     "name": "53c5cf11-4cfb-4e38-9cd0-3ffeda0bc7b0"
   }, {
     "intent": "system_says_found",
@@ -39,7 +39,7 @@
         "value": ""
       } ]
     },
-    "targetPage": "wait_call_page",
+    "targetPage": "wait_yesno_page",
     "name": "ffb8b021-28bd-4b4b-b91b-728283136cc4"
   }, {
     "intent": "system_says_arrived",
@@ -73,7 +73,7 @@
         "languageCode": "it"
       } ]
     },
-    "targetPage": "wait_task_page",
+    "targetPage": "wait_request_page",
     "name": "9c01540a-8fbe-4c66-8a06-ba7dc76b6d8e"
   } ],
   "transitionRouteGroups": [ "manage_task", "manage_questions" ],

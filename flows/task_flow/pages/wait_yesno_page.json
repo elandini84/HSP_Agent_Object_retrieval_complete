@@ -1,0 +1,22 @@
+{
+  "name": "4bdfbf05-7999-47c9-9a08-dd7769e3edc0",
+  "displayName": "wait_yesno_page",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "human_say_yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "wait_request_page",
+    "name": "f954158e-53cc-4d88-b60a-f59af9a5ae0c"
+  }, {
+    "intent": "human_says_no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "wait_call_page",
+    "name": "82909975-be89-4632-a07a-2d1bae261094"
+  } ]
+}
