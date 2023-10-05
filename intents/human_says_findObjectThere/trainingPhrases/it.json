@@ -110,7 +110,7 @@
     }, {
       "text": " "
     }, {
-      "text": "barattolo",
+      "text": "idrante",
       "parameterId": "searchableVal"
     }, {
       "text": "? Dovrebbero essercene "
@@ -178,7 +178,7 @@
     }, {
       "text": " "
     }, {
-      "text": "ciabatte",
+      "text": "forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -204,13 +204,13 @@
     }, {
       "text": " mica "
     }, {
-      "text": "le",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "scarpe",
+      "text": "valigia",
       "parameterId": "searchableVal"
     }, {
       "text": "? Dovrebbero essere "
@@ -233,9 +233,11 @@
       "parameterId": "find_verbsVal",
       "auto": true
     }, {
-      "text": " l'"
-    }, {
-      "text": "aspirina",
+      "text": "la",
+      "parameterId": "articlesVal",
+      "auto": true
+    },{
+      "text": "borsa",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -267,7 +269,7 @@
     }, {
       "text": " "
     }, {
-      "text": "sciarpa",
+      "text": "cravatta",
       "parameterId": "searchableVal"
     }, {
       "text": "? Dovrebbe essere "
@@ -292,13 +294,13 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "lo",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "ventilatore",
+      "text": "zaino",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -362,7 +364,7 @@
     }, {
       "text": " "
     }, {
-      "text": "borraccia",
+      "text": "bottiglia",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -394,19 +396,19 @@
     }, {
       "text": " "
     }, {
-      "text": "gli",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "occhiali",
+      "text": "tastiera",
       "parameterId": "searchableVal",
       "auto": true
     }, {
       "text": ". Potresti "
     }, {
-      "text": "cercarli",
+      "text": "cercarla",
       "parameterId": "find_verbsVal",
       "auto": true
     }, {
@@ -434,7 +436,7 @@
     }, {
       "text": " "
     }, {
-      "text": "ventilatore",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -460,15 +462,19 @@
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "Non trovo l'"
+      "text": "Non trovo"
     }, {
-      "text": "accendino",
+      "text": "la",
+      "parameterId": "articlesVal",
+      "auto": true
+    }, {
+      "text": "borsa",
       "parameterId": "searchableVal",
       "auto": true
     }, {
       "text": ". Potresti "
     }, {
-      "text": "cercarlo",
+      "text": "cercarla",
       "parameterId": "find_verbsVal",
       "auto": true
     }, {
@@ -623,7 +629,7 @@
     }, {
       "text": " "
     }, {
-      "text": "bagno",
+      "text": "cucina",
       "parameterId": "thereVal"
     } ],
     "repeatCount": 1,
