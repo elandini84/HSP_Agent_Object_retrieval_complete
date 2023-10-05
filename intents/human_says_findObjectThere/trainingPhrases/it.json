@@ -15,7 +15,7 @@
     }, {
       "text": " "
     }, {
-      "text": "cappello",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -47,7 +47,7 @@
     }, {
       "text": " "
     }, {
-      "text": "spazzola",
+      "text": "sedia",
       "parameterId": "searchableVal"
     }, {
       "text": "? Dovrebbe essere "
@@ -57,7 +57,7 @@
     }, {
       "text": " "
     }, {
-      "text": "bagno",
+      "text": "cucina",
       "parameterId": "thereVal"
     } ],
     "repeatCount": 1,
@@ -72,13 +72,13 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "taccuino",
+      "text": "tastiera",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -500,7 +500,7 @@
     }, {
       "text": " "
     }, {
-      "text": "penna",
+      "text": "banana",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -534,7 +534,7 @@
     }, {
       "text": " "
     }, {
-      "text": "forchetta",
+      "text": "mela",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -572,7 +572,7 @@
     }, {
       "text": " "
     }, {
-      "text": "cappello",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -612,7 +612,7 @@
     }, {
       "text": " "
     }, {
-      "text": "penna",
+      "text": "banana",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -644,7 +644,7 @@
     }, {
       "text": " "
     }, {
-      "text": "cappello",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -676,7 +676,7 @@
     }, {
       "text": " "
     }, {
-      "text": "forchetta",
+      "text": "mela",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -702,13 +702,13 @@
     }, {
       "text": " "
     }, {
-      "text": "uno",
+      "text": "una",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "sgabello",
+      "text": "sedia",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -740,7 +740,7 @@
     }, {
       "text": " "
     }, {
-      "text": "righello",
+      "text": "vaso",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -772,15 +772,11 @@
     }, {
       "text": " "
     }, {
-      "text": "quaderno",
+      "text": "portatile",
       "parameterId": "searchableVal",
       "auto": true
     }, {
       "text": " "
-    }, {
-      "text": "blu",
-      "parameterId": "color",
-      "auto": true
     }, {
       "text": " "
     }, {
@@ -804,13 +800,13 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "bicchiere",
+      "text": "tazza",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -842,7 +838,7 @@
     }, {
       "text": " "
     }, {
-      "text": "trapano",
+      "text": "paio di forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -868,20 +864,14 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "le",
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " mie "
     }, {
-      "text": "quaderno",
+      "text": "forbici",
       "parameterId": "searchableVal",
-      "auto": true
-    }, {
-      "text": " "
-    }, {
-      "text": "blu",
-      "parameterId": "color",
       "auto": true
     }, {
       "text": " "
@@ -912,7 +902,7 @@
     }, {
       "text": " "
     }, {
-      "text": "bicchiere",
+      "text": "divano",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -944,7 +934,7 @@
     }, {
       "text": " mio "
     }, {
-      "text": "trapano",
+      "text": "zaino",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -976,7 +966,7 @@
     }, {
       "text": " "
     }, {
-      "text": "pennello",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1002,13 +992,13 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " mia "
     }, {
-      "text": "astuccio",
+      "text": "tastiera",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1104,7 +1094,7 @@
     }, {
       "text": " mie "
     }, {
-      "text": "chiavi",
+      "text": "forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1136,7 +1126,7 @@
     }, {
       "text": " mie "
     }, {
-      "text": "chiavi",
+      "text": "forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1232,7 +1222,7 @@
     }, {
       "text": " mio "
     }, {
-      "text": "tablet",
+      "text": "cellulare",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1264,7 +1254,7 @@
     }, {
       "text": " mio "
     }, {
-      "text": "portafogli",
+      "text": "zaino",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1478,7 +1468,7 @@
     }, {
       "text": " mie "
     }, {
-      "text": "ciabatte",
+      "text": "forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1508,7 +1498,7 @@
     }, {
       "text": " "
     }, {
-      "text": "scatola di aspirine",
+      "text": "tastiera",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1568,7 +1558,7 @@
     }, {
       "text": " mia "
     }, {
-      "text": "borraccia",
+      "text": "bottiglia",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1592,13 +1582,13 @@
     }, {
       "text": " "
     }, {
-      "text": "i",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " miei "
+      "text": " mia "
     }, {
-      "text": "occhiali",
+      "text": "valigia",
       "parameterId": "searchableVal",
       "auto": true
     }, {

@@ -29,10 +29,7 @@
         "parameter": "searchableval",
         "value": ""
       }, {
-        "parameter": "find_verbsAskedVal",
-        "value": ""
-      }, {
-        "parameter": "go_verbsAskedVal",
+        "parameter": "goVal",
         "value": ""
       }, {
         "parameter": "searchableval_orig",
@@ -42,6 +39,12 @@
         "value": ""
       }, {
         "parameter": "targetlocationval_orig",
+        "value": ""
+      }, {
+        "parameter": "searchableval_orig",
+        "value": ""
+      }, {
+        "parameter": "articlesval_orig",
         "value": ""
       } ]
     },
