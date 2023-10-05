@@ -2,17 +2,20 @@
   "name": "6cadc232-0402-415d-b08c-6e74816cf726",
   "displayName": "human_says_findObject",
   "parameters": [ {
-    "id": "searchableVal",
-    "entityType": "@searchable_entity"
+    "id": "find_verbsVal",
+    "entityType": "@find_verbs_entity"
   }, {
     "id": "articlesVal",
     "entityType": "@articles_entity"
   }, {
-    "id": "find_verbsVal",
-    "entityType": "@find_verbs_entity"
+    "id": "searchableVal",
+    "entityType": "@searchable_entity"
   }, {
-    "id": "location",
-    "entityType": "@sys.location"
+    "id": "possessive_pronomVal",
+    "entityType": "@possessive_pronom"
+  }, {
+    "id": "goVal",
+    "entityType": "@go_verbs_entity"
   } ],
   "priority": 500000,
   "labels": [ {

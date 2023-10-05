@@ -1,18 +1,10 @@
 {
   "entities": [ {
-    "value": "mug",
+    "value": "cup",
     "synonyms": [ "tazza", "tazza da caffé", "tazza da latte", "tazzina", "tazzina da caffé" ],
     "languageCode": "it"
   }, {
-    "value": "glass",
-    "synonyms": [ "bicchiere" ],
-    "languageCode": "it"
-  }, {
-    "value": "glasses",
-    "synonyms": [ "occhiali" ],
-    "languageCode": "it"
-  }, {
-    "value": "phone",
+    "value": "cell phone",
     "synonyms": [ "cell", "cellulare", "iphone", "samsung", "smartphone", "telefonino", "telefono" ],
     "languageCode": "it"
   }, {
@@ -20,8 +12,8 @@
     "synonyms": [ "bottiglia", "bottiglia d'acqua", "bottiglietta" ],
     "languageCode": "it"
   }, {
-    "value": "canteen",
-    "synonyms": [ "borraccia" ],
+    "value": "person",
+    "synonyms": [ "persona" ],
     "languageCode": "it"
   }, {
     "value": "remote",
@@ -32,84 +24,76 @@
     "synonyms": [ "libro" ],
     "languageCode": "it"
   }, {
-    "value": "notebook",
-    "synonyms": [ "quadernino", "quaderno", "quadernone" ],
+    "value": "fire hydrant",
+    "synonyms": [ "idrante" ],
     "languageCode": "it"
   }, {
-    "value": "notepad",
-    "synonyms": [ "taccuino" ],
+    "value": "umbrella",
+    "synonyms": [ "ombrello" ],
     "languageCode": "it"
   }, {
-    "value": "stool",
-    "synonyms": [ "sgabellino", "sgabello" ],
+    "value": "tie",
+    "synonyms": [ "cravatta" ],
     "languageCode": "it"
   }, {
-    "value": "wallet",
-    "synonyms": [ "portafogli", "portafoglio" ],
+    "value": "suitecase",
+    "synonyms": [ "valigia" ],
     "languageCode": "it"
   }, {
-    "value": "slippers",
-    "synonyms": [ "ciabatte" ],
+    "value": "apple",
+    "synonyms": [ "mela" ],
     "languageCode": "it"
   }, {
-    "value": "aspirin",
-    "synonyms": [ "aspirina", "scatola di aspirine" ],
+    "value": "sandwich",
+    "synonyms": [ "panino", "sandwich", "tramezzino" ],
     "languageCode": "it"
   }, {
-    "value": "purse",
+    "value": "handbag",
     "synonyms": [ "borsa", "borsetta" ],
     "languageCode": "it"
   }, {
-    "value": "tablet",
-    "synonyms": [ "ipad", "tablet" ],
+    "value": "chair",
+    "synonyms": [ "sedia", "seggiola" ],
     "languageCode": "it"
   }, {
-    "value": "keys",
-    "synonyms": [ "chiavi", "mazzo di chiavi" ],
+    "value": "couch",
+    "synonyms": [ "divano", "sofá" ],
     "languageCode": "it"
   }, {
-    "value": "case",
-    "synonyms": [ "astuccio" ],
+    "value": "potted plant",
+    "synonyms": [ "pianta", "pianta invasata" ],
     "languageCode": "it"
   }, {
-    "value": "brush",
-    "synonyms": [ "pennello" ],
+    "value": "bed",
+    "synonyms": [ "letto" ],
     "languageCode": "it"
   }, {
-    "value": "drill",
-    "synonyms": [ "trapano" ],
+    "value": "dining table",
+    "synonyms": [ "tavolo", "tavolo da pranzo" ],
     "languageCode": "it"
   }, {
-    "value": "ruler",
-    "synonyms": [ "riga", "righello" ],
+    "value": "toilette",
+    "synonyms": [ "gabinetto", "toilette", "wc" ],
     "languageCode": "it"
   }, {
-    "value": "fork",
-    "synonyms": [ "forchetta" ],
+    "value": "tv",
+    "synonyms": [ "tele", "televisore", "tv" ],
     "languageCode": "it"
   }, {
-    "value": "hat",
-    "synonyms": [ "cappello" ],
+    "value": "mouse",
+    "synonyms": [ "mouse" ],
     "languageCode": "it"
   }, {
-    "value": "pen",
-    "synonyms": [ "biro", "penna", "penna a sfera", "penna biro", "penna stilografica", "stilografica" ],
+    "value": "keyboard",
+    "synonyms": [ "tastiera" ],
     "languageCode": "it"
   }, {
-    "value": "lighter",
-    "synonyms": [ "accendino", "zippo" ],
+    "value": "clock",
+    "synonyms": [ "orologio" ],
     "languageCode": "it"
   }, {
-    "value": "fan",
-    "synonyms": [ "ventilatore" ],
-    "languageCode": "it"
-  }, {
-    "value": "badge",
-    "synonyms": [ "badge", "cartellino", "tessera", "tesserino" ],
-    "languageCode": "it"
-  }, {
-    "value": "brufen",
-    "synonyms": [ "antinfiammatori", "brufen" ],
+    "value": "vase",
+    "synonyms": [ "vaso" ],
     "languageCode": "it"
   }, {
     "value": "backpack",
@@ -118,6 +102,14 @@
   }, {
     "value": "laptop",
     "synonyms": [ "computer", "laptop", "pc", "portatile" ],
+    "languageCode": "it"
+  }, {
+    "value": "scissors",
+    "synonyms": [ "forbici", "paio di forbici" ],
+    "languageCode": "it"
+  }, {
+    "value": "banana",
+    "synonyms": [ "banana" ],
     "languageCode": "it"
   } ]
 }
