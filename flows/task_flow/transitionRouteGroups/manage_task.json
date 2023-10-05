@@ -47,5 +47,12 @@
     },
     "targetPage": "wait_call_page",
     "name": "1a92cff0-6d9c-4fc7-8436-4ed5eac78391"
+  }, {
+    "intent": "human_says_simpleReset",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "wait_call_page",
+    "name": "99859b19-a20f-41a6-85e4-0ec26bf08e16"
   } ]
 }
