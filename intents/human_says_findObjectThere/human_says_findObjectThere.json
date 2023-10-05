@@ -16,12 +16,6 @@
   }, {
     "id": "thereVal",
     "entityType": "@room_entity"
-  }, {
-    "id": "person",
-    "entityType": "@sys.person"
-  }, {
-    "id": "color",
-    "entityType": "@sys.color"
   } ],
   "priority": 500000,
   "labels": [ {

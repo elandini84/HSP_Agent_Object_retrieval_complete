@@ -15,7 +15,7 @@
     }, {
       "text": " "
     }, {
-      "text": "cappello",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -47,7 +47,7 @@
     }, {
       "text": " "
     }, {
-      "text": "spazzola",
+      "text": "sedia",
       "parameterId": "searchableVal"
     }, {
       "text": "? Dovrebbe essere "
@@ -57,7 +57,7 @@
     }, {
       "text": " "
     }, {
-      "text": "bagno",
+      "text": "cucina",
       "parameterId": "thereVal"
     } ],
     "repeatCount": 1,
@@ -72,13 +72,13 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "taccuino",
+      "text": "tastiera",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -110,7 +110,7 @@
     }, {
       "text": " "
     }, {
-      "text": "barattolo",
+      "text": "idrante",
       "parameterId": "searchableVal"
     }, {
       "text": "? Dovrebbero essercene "
@@ -178,7 +178,7 @@
     }, {
       "text": " "
     }, {
-      "text": "ciabatte",
+      "text": "forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -204,13 +204,13 @@
     }, {
       "text": " mica "
     }, {
-      "text": "le",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "scarpe",
+      "text": "valigia",
       "parameterId": "searchableVal"
     }, {
       "text": "? Dovrebbero essere "
@@ -233,9 +233,11 @@
       "parameterId": "find_verbsVal",
       "auto": true
     }, {
-      "text": " l'"
-    }, {
-      "text": "aspirina",
+      "text": "la",
+      "parameterId": "articlesVal",
+      "auto": true
+    },{
+      "text": "borsa",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -267,7 +269,7 @@
     }, {
       "text": " "
     }, {
-      "text": "sciarpa",
+      "text": "cravatta",
       "parameterId": "searchableVal"
     }, {
       "text": "? Dovrebbe essere "
@@ -292,13 +294,13 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "lo",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "ventilatore",
+      "text": "zaino",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -362,7 +364,7 @@
     }, {
       "text": " "
     }, {
-      "text": "borraccia",
+      "text": "bottiglia",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -394,19 +396,19 @@
     }, {
       "text": " "
     }, {
-      "text": "gli",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "occhiali",
+      "text": "tastiera",
       "parameterId": "searchableVal",
       "auto": true
     }, {
       "text": ". Potresti "
     }, {
-      "text": "cercarli",
+      "text": "cercarla",
       "parameterId": "find_verbsVal",
       "auto": true
     }, {
@@ -434,7 +436,7 @@
     }, {
       "text": " "
     }, {
-      "text": "ventilatore",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -460,15 +462,19 @@
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "Non trovo l'"
+      "text": "Non trovo"
     }, {
-      "text": "accendino",
+      "text": "la",
+      "parameterId": "articlesVal",
+      "auto": true
+    }, {
+      "text": "borsa",
       "parameterId": "searchableVal",
       "auto": true
     }, {
       "text": ". Potresti "
     }, {
-      "text": "cercarlo",
+      "text": "cercarla",
       "parameterId": "find_verbsVal",
       "auto": true
     }, {
@@ -500,7 +506,7 @@
     }, {
       "text": " "
     }, {
-      "text": "penna",
+      "text": "banana",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -534,7 +540,7 @@
     }, {
       "text": " "
     }, {
-      "text": "forchetta",
+      "text": "mela",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -572,7 +578,7 @@
     }, {
       "text": " "
     }, {
-      "text": "cappello",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -612,7 +618,7 @@
     }, {
       "text": " "
     }, {
-      "text": "penna",
+      "text": "banana",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -623,7 +629,7 @@
     }, {
       "text": " "
     }, {
-      "text": "bagno",
+      "text": "cucina",
       "parameterId": "thereVal"
     } ],
     "repeatCount": 1,
@@ -644,7 +650,7 @@
     }, {
       "text": " "
     }, {
-      "text": "cappello",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -676,7 +682,7 @@
     }, {
       "text": " "
     }, {
-      "text": "forchetta",
+      "text": "mela",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -702,13 +708,13 @@
     }, {
       "text": " "
     }, {
-      "text": "uno",
+      "text": "una",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "sgabello",
+      "text": "sedia",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -740,7 +746,7 @@
     }, {
       "text": " "
     }, {
-      "text": "righello",
+      "text": "vaso",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -772,15 +778,11 @@
     }, {
       "text": " "
     }, {
-      "text": "quaderno",
+      "text": "portatile",
       "parameterId": "searchableVal",
       "auto": true
     }, {
       "text": " "
-    }, {
-      "text": "blu",
-      "parameterId": "color",
-      "auto": true
     }, {
       "text": " "
     }, {
@@ -804,13 +806,13 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
       "text": " "
     }, {
-      "text": "bicchiere",
+      "text": "tazza",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -842,7 +844,7 @@
     }, {
       "text": " "
     }, {
-      "text": "trapano",
+      "text": "paio di forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -868,20 +870,14 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "le",
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " mie "
     }, {
-      "text": "quaderno",
+      "text": "forbici",
       "parameterId": "searchableVal",
-      "auto": true
-    }, {
-      "text": " "
-    }, {
-      "text": "blu",
-      "parameterId": "color",
       "auto": true
     }, {
       "text": " "
@@ -912,7 +908,7 @@
     }, {
       "text": " "
     }, {
-      "text": "bicchiere",
+      "text": "divano",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -944,7 +940,7 @@
     }, {
       "text": " mio "
     }, {
-      "text": "trapano",
+      "text": "zaino",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -976,7 +972,7 @@
     }, {
       "text": " "
     }, {
-      "text": "pennello",
+      "text": "mouse",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1002,13 +998,13 @@
     }, {
       "text": " "
     }, {
-      "text": "il",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " mia "
     }, {
-      "text": "astuccio",
+      "text": "tastiera",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1104,7 +1100,7 @@
     }, {
       "text": " mie "
     }, {
-      "text": "chiavi",
+      "text": "forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1136,7 +1132,7 @@
     }, {
       "text": " mie "
     }, {
-      "text": "chiavi",
+      "text": "forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1232,7 +1228,7 @@
     }, {
       "text": " mio "
     }, {
-      "text": "tablet",
+      "text": "cellulare",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1264,7 +1260,7 @@
     }, {
       "text": " mio "
     }, {
-      "text": "portafogli",
+      "text": "zaino",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1478,7 +1474,7 @@
     }, {
       "text": " mie "
     }, {
-      "text": "ciabatte",
+      "text": "forbici",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1508,7 +1504,7 @@
     }, {
       "text": " "
     }, {
-      "text": "scatola di aspirine",
+      "text": "tastiera",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1568,7 +1564,7 @@
     }, {
       "text": " mia "
     }, {
-      "text": "borraccia",
+      "text": "bottiglia",
       "parameterId": "searchableVal",
       "auto": true
     }, {
@@ -1592,13 +1588,13 @@
     }, {
       "text": " "
     }, {
-      "text": "i",
+      "text": "la",
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " miei "
+      "text": " mia "
     }, {
-      "text": "occhiali",
+      "text": "valigia",
       "parameterId": "searchableVal",
       "auto": true
     }, {
