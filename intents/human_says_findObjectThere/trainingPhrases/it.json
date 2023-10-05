@@ -230,13 +230,15 @@
       "text": "Mi potresti "
     }, {
       "text": "trovare",
-      "parameterId": "find_verbsVal",
-      "auto": true
+      "parameterId": "find_verbsVal"
+    }, {
+      "text": " "
     }, {
       "text": "la",
-      "parameterId": "articlesVal",
-      "auto": true
-    },{
+      "parameterId": "articlesVal"
+    }, {
+      "text": " "
+    }, {
       "text": "borsa",
       "parameterId": "searchableVal",
       "auto": true
@@ -462,15 +464,15 @@
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "Non trovo"
+      "text": "Non trovo "
     }, {
       "text": "la",
-      "parameterId": "articlesVal",
-      "auto": true
+      "parameterId": "articlesVal"
+    }, {
+      "text": " "
     }, {
       "text": "borsa",
-      "parameterId": "searchableVal",
-      "auto": true
+      "parameterId": "searchableVal"
     }, {
       "text": ". Potresti "
     }, {
@@ -874,7 +876,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mie "
+      "text": " "
+    }, {
+      "text": "mie",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "forbici",
       "parameterId": "searchableVal",
@@ -938,7 +945,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " "
+    }, {
+      "text": "mio",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "zaino",
       "parameterId": "searchableVal",
@@ -1002,7 +1014,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mia "
+      "text": " "
+    }, {
+      "text": "mia",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "tastiera",
       "parameterId": "searchableVal",
@@ -1034,7 +1051,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " "
+    }, {
+      "text": "mio",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "telefono",
       "parameterId": "searchableVal",
@@ -1098,7 +1120,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mie "
+      "text": " "
+    }, {
+      "text": "mie",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "forbici",
       "parameterId": "searchableVal",
@@ -1130,7 +1157,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mie "
+      "text": " "
+    }, {
+      "text": "mie",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "forbici",
       "parameterId": "searchableVal",
@@ -1194,7 +1226,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " "
+    }, {
+      "text": "mio",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "telefono",
       "parameterId": "searchableVal",
@@ -1226,7 +1263,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " "
+    }, {
+      "text": "mio",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "cellulare",
       "parameterId": "searchableVal",
@@ -1258,7 +1300,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " "
+    }, {
+      "text": "mio",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "zaino",
       "parameterId": "searchableVal",
@@ -1290,7 +1337,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " "
+    }, {
+      "text": "mio",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "libro",
       "parameterId": "searchableVal",
@@ -1320,7 +1372,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mia "
+      "text": " "
+    }, {
+      "text": "mia",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "borsa",
       "parameterId": "searchableVal",
@@ -1352,7 +1409,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mia "
+      "text": " "
+    }, {
+      "text": "mia",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "tazza",
       "parameterId": "searchableVal",
@@ -1382,7 +1444,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mia "
+      "text": " "
+    }, {
+      "text": "mia",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "borsa",
       "parameterId": "searchableVal",
@@ -1412,7 +1479,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mio "
+      "text": " "
+    }, {
+      "text": "mio",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "libro",
       "parameterId": "searchableVal",
@@ -1442,7 +1514,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mia "
+      "text": " "
+    }, {
+      "text": "mia",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "tazza",
       "parameterId": "searchableVal",
@@ -1472,7 +1549,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mie "
+      "text": " "
+    }, {
+      "text": "mie",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "forbici",
       "parameterId": "searchableVal",
@@ -1562,7 +1644,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mia "
+      "text": " "
+    }, {
+      "text": "mia",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "bottiglia",
       "parameterId": "searchableVal",
@@ -1592,7 +1679,12 @@
       "parameterId": "articlesVal",
       "auto": true
     }, {
-      "text": " mia "
+      "text": " "
+    }, {
+      "text": "mia",
+      "parameterId": "possessive_pronomVal"
+    }, {
+      "text": " "
     }, {
       "text": "valigia",
       "parameterId": "searchableVal",

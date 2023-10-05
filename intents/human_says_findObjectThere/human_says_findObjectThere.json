@@ -16,6 +16,9 @@
   }, {
     "id": "thereVal",
     "entityType": "@room_entity"
+  }, {
+    "id": "possessive_pronomVal",
+    "entityType": "@possessive_pronom"
   } ],
   "priority": 500000,
   "labels": [ {
