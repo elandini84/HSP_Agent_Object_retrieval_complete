@@ -2,19 +2,61 @@
   "name": "4bdfbf05-7999-47c9-9a08-dd7769e3edc0",
   "displayName": "wait_yesno_page",
   "form": {
-  
+
   },
   "transitionRoutes": [ {
     "intent": "human_say_yes",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Come posso aiutarti?\")", "(say \"Dimmi pure\")", "(say \"Cosa ti serve?\")", "(say \"Come posso esserti d'aiuto?\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "destinationVal",
+        "value": ""
+      }, {
+        "parameter": "thereVal",
+        "value": ""
+      }, {
+        "parameter": "searchableVal",
+        "value": ""
+      } ]
     },
     "targetPage": "wait_request_page",
     "name": "f954158e-53cc-4d88-b60a-f59af9a5ae0c"
   }, {
     "intent": "human_says_no",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "(reset_home) (say \"Ok, ricevuto. Torno al mio posto allora. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "destinationVal",
+        "value": ""
+      }, {
+        "parameter": "thereVal",
+        "value": ""
+      }, {
+        "parameter": "searchableVal",
+        "value": ""
+      }, {
+        "parameter": "find_verbsVal",
+        "value": ""
+      }, {
+        "parameter": "goVal",
+        "value": ""
+      }, {
+        "parameter": "destinationVal_orig",
+        "value": ""
+      }, {
+        "parameter": "searchableVal_orig",
+        "value": ""
+      } ]
     },
     "targetPage": "wait_call_page",
     "name": "82909975-be89-4632-a07a-2d1bae261094"
