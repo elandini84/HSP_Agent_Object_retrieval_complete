@@ -3,6 +3,7 @@
   "displayName": "manage_request",
   "transitionRoutes": [ {
     "intent": "human_says_findObject",
+    "condition": "$intent.params.searchableVal.original != \"\" AND $intent.params.articlesVal.original != \"\"",
     "triggerFulfillment": {
       "messages": [ {
         "text": {

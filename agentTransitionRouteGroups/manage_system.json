@@ -50,5 +50,17 @@
     },
     "targetFlow": "language_selection_flow",
     "name": "84d9b227-d9c8-48e2-a225-6eeb9ccfc7d0"
+  }, {
+    "intent": "system_says_badError",
+    "triggerFulfillment": {
+    
+    },
+    "name": "9503e65b-368c-4368-ae90-69deb7dfd730"
+  }, {
+    "intent": "system_says_fallback",
+    "triggerFulfillment": {
+    
+    },
+    "name": "9c7cfe71-33be-4470-a436-3dfdc2ae0905"
   } ]
 }

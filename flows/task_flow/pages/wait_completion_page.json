@@ -75,6 +75,28 @@
     },
     "targetPage": "wait_request_page",
     "name": "9c01540a-8fbe-4c66-8a06-ba7dc76b6d8e"
+  }, {
+    "intent": "system_says_foundMaybe",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Potrei aver trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Provo a controllare meglio\")", "(say \"Potrei aver trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Fammi guardare meglio\")", "(say \"Mi sembra di aver visto $session.params.articlesVal_orig $session.params.searchableVal_orig. Provo a controllare meglio\")", "(say \"Mi sembra di aver visto $session.params.articlesVal_orig $session.params.searchableVal_orig. Aspetta che controllo meglio\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "6123216a-ed14-4c2e-85ff-8bb25c83b222"
+  }, {
+    "intent": "system_says_maybeFalse",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Ok no. Mi ero sbagliata. Proseguo la ricerca\")", "(say \"Falso allarme. Vado avanti\")", "(say \"No, non era quello che cercavo. Vado avanti\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "5cc04ae0-2476-4c6e-8f45-c7359d41486a"
   } ],
   "transitionRouteGroups": [ "manage_task", "manage_questions", "manage_request" ],
   "agentTransitionRouteGroups": [ "manage_system" ]

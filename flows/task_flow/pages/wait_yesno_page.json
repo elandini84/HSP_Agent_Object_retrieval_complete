@@ -2,7 +2,7 @@
   "name": "4bdfbf05-7999-47c9-9a08-dd7769e3edc0",
   "displayName": "wait_yesno_page",
   "form": {
-
+  
   },
   "transitionRoutes": [ {
     "intent": "human_say_yes",
