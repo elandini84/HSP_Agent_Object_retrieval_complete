@@ -94,15 +94,49 @@
     "name": "82918abc-d8d0-4e9d-bc4f-0ba6394d67e3"
   }, {
     "intent": "human_says_findObjectThere",
+    "condition": "$intent.params.searchableVal.original != \"\" AND $intent.params.articlesVal.original = \"\"",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "(search $session.params.searchableVal $session.params.thereVal) (say \"Ok, vado a cercare $session.params.articlesVal_orig $intent.params.searchableVal.original in $intent.params.thereVal.original\")", "(search $session.params.searchableVal $session.params.thereVal) (say \"Ok, vado a vedere se trovo $session.params.articlesVal_orig $intent.params.searchableVal.original in $intent.params.thereVal.original\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "searchableVal_orig",
+        "value": "$intent.params.searchableVal.original"
+      }, {
+        "parameter": "targetLocationVal_orig",
+        "value": "$intent.params.thereVal.original"
+      }, {
+        "parameter": "articlesval_orig",
+        "value": "\"\""
+      } ]
     },
+    "targetPage": "wait_completion_page",
     "name": "9d8c5297-d6c7-4b8e-ac15-8f9cf35c5a68"
   }, {
     "intent": "human_says_findObjectThere",
+    "condition": "$intent.params.searchableVal.original = \"\"",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "(search $session.params.searchableVal $session.params.thereVal) (say \"Ok, vado a cercare $session.params.articlesVal_orig $session.params.searchableVal_orig in $intent.params.thereVal.original\")", "(search $session.params.searchableVal $session.params.thereVal) (say \"Ok, vado a vedere se trovo $session.params.articlesVal_orig $session.params.searchableVal in $intent.params.thereVal.original\")" ]
+        },
+        "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "searchableVal_orig",
+        "value": "\"\""
+      }, {
+        "parameter": "targetLocationVal_orig",
+        "value": "$intent.params.thereVal.original"
+      }, {
+        "parameter": "articlesval_orig",
+        "value": "\"\""
+      } ]
     },
+    "targetPage": "wait_completion_page",
     "name": "8d0291ab-aba5-47d6-a422-2792dab4dc4d"
   } ]
 }
