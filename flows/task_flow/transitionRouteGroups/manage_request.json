@@ -75,7 +75,7 @@
         "value": "$intent.params.searchableVal.original"
       }, {
         "parameter": "articlesval_orig",
-        "value": "\"\""
+        "value": ""
       } ]
     },
     "targetPage": "wait_completion_page",
@@ -111,7 +111,7 @@
         "value": "$intent.params.thereVal.original"
       }, {
         "parameter": "articlesval_orig",
-        "value": "\"\""
+        "value": ""
       } ]
     },
     "targetPage": "wait_completion_page",
@@ -127,14 +127,8 @@
         "languageCode": "it"
       } ],
       "setParameterActions": [ {
-        "parameter": "searchableVal_orig",
-        "value": "\"\""
-      }, {
         "parameter": "targetLocationVal_orig",
         "value": "$intent.params.thereVal.original"
-      }, {
-        "parameter": "articlesval_orig",
-        "value": "\"\""
       } ]
     },
     "targetPage": "wait_completion_page",
