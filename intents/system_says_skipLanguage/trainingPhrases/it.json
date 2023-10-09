@@ -1,11 +1,9 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "skip_language_",
-      "auto": true
+      "text": "skip_language_"
     }, {
-      "text": "set",
-      "auto": true
+      "text": "set"
     } ],
     "repeatCount": 1,
     "languageCode": "it"

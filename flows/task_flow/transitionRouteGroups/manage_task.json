@@ -6,6 +6,11 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
+          "text": [ "(say \"Ok. I'll wait here. Just tell me when you want me to resume my task\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
           "text": [ "(stop) (say \"Ok, ricevuto. Dimmi tu quando riprendere\")" ]
         },
         "languageCode": "it"
