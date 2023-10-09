@@ -1,6 +1,43 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "ok, come non ",
+      "auto": true
+    }, {
+      "text": "detto",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "nessun problema. torna pure a posto",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "ok, finiamo pure",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "fa ",
+      "auto": true
+    }, {
+      "text": "lo",
+      "auto": true
+    }, {
+      "text": " stesso",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
       "text": "da",
       "auto": true
     }, {

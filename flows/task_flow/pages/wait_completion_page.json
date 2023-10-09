@@ -46,7 +46,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "back_waiting_go" ]
+          "text": [ "(say \"Sono arrivato in $session.params.targetLocationVal_orig. Ti serve altro?\")", "(say \"Mi trovo in $session.params.targetLocationVal_orig. Vuoi che faccia altro?\")", "(say \"Sono in $session.params.targetLocationVal_orig. Serve altro?\")" ]
         },
         "languageCode": "it"
       } ],
@@ -61,14 +61,14 @@
         "value": ""
       } ]
     },
-    "targetPage": "wait_call_page",
+    "targetPage": "wait_yesno_page",
     "name": "bc16541f-2b8f-44fe-9ea2-0b5c59ca9feb"
   }, {
     "intent": "system_says_navigationFailed",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "ask_further_go" ]
+          "text": [ "(say \"Purtroppo c'è stato un errore di navigazione. Non ho raggiunto il mio obiettivo\")", "(say \"La destinazione non è stata raggiunta. C'è stato un errore di navigazione\")", "(say \"Problema alla navigazione. Per favore attendere\")" ]
         },
         "languageCode": "it"
       } ]

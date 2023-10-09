@@ -12,36 +12,26 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "resume" ]
+          "text": [ "(resume) (say \"Ok, riparto con quello che stavo facendo.\")", "(resume) (say \"Ok, allora riprendo la mia attivitá\")", "(resume) (say \"Ben, si riparte\")" ]
         },
         "languageCode": "it"
       } ]
     },
+    "targetPage": "wait_completion_page",
     "name": "b94c3b9a-e95f-4caf-89fa-d0b9fdf247a8"
-  }, {
-    "intent": "system_says_resumed",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "back_on_track" ]
-        },
-        "languageCode": "it"
-      } ]
-    },
-    "targetPage": "Previous Page",
-    "name": "e497bed6-f5f0-4bf5-b959-dfa7dd864476"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "waiting_resume" ]
+          "text": [ "(say \"Al momento sono in pausa. Per farmi ripartire, dimmi qualcosa come: Riparti o riprendi\")", "(say \"Non sono in grado di eseguire questo comando. Per farmi ripartire, dimmi qualcosa come: Riparti o riprendi\")", "(say \"Sono impossibilitato al momento. Se vuoi che riprenda il mio normale funzionamento, dì qualcosa come: Riparti o riprendi\")" ]
         },
         "languageCode": "it"
       } ]
     },
     "name": "a95f4fb7-5fe0-4d08-9bcd-cc8d6796e57e"
   } ],
+  "transitionRouteGroups": [ "manage_task" ],
   "agentTransitionRouteGroups": [ "manage_system" ]
 }
