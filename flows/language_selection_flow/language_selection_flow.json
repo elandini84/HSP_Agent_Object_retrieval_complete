@@ -25,6 +25,17 @@
       "setParameterActions": [ {
         "parameter": "skipStart",
         "value": true
+      } ],
+      "messages": [ {
+        "text": {
+          "text": [ "(skipped)" ]
+        },
+        "languageCode": "it"
+      }, {
+        "text": {
+          "text": [ "(skipped)" ]
+        },
+        "languageCode": "en-us"
       } ]
     },
     "targetFlow": "task_flow",
@@ -78,7 +89,7 @@
     "classificationThreshold": 0.5,
     "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
     "multiIntentSettings": {
-    
+
     }
   },
   "advancedSettings": {
