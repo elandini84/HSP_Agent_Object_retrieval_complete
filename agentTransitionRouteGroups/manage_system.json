@@ -46,6 +46,12 @@
       }, {
         "parameter": "articlesval_orig",
         "value": ""
+      } ],
+      "messages": [ {
+        "text": {
+          "text": [ "(dialogReset) (say \"Reset completo. Ripartiamo dalla selezione della lingua\")", "(dialogReset) (say \"Sistema resettato. Entro breve si potrá ripartire dalla selezione della lingua\")" ]
+        },
+        "languageCode": "it"
       } ]
     },
     "targetFlow": "language_selection_flow",
@@ -53,13 +59,23 @@
   }, {
     "intent": "system_says_badError",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Rilevato errore. Per favore attendere\")", "(say \"Ho riscontrato un errore grave. Mi spiace, ma devo chiederti di aspettare\")" ]
+        },
+        "languageCode": "it"
+      } ]
     },
     "name": "9503e65b-368c-4368-ae90-69deb7dfd730"
   }, {
     "intent": "system_says_fallback",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Il comando non é stato riconosciuto. Potresti ripetere?\")", "(say \"Credo di non aver capito cosa tu voglia che faccia. Puoi ripetere?\")" ]
+        },
+        "languageCode": "it"
+      } ]
     },
     "name": "9c7cfe71-33be-4470-a436-3dfdc2ae0905"
   } ]
