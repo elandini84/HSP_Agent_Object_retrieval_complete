@@ -28,5 +28,5 @@
     "key": "say",
     "value": "say"
   } ],
-  "numTrainingPhrases": 50
+  "numTrainingPhrases": 100
 }
