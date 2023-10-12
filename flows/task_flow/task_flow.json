@@ -4,7 +4,7 @@
   "transitionRoutes": [ {
     "condition": "$session.params.skipStart = true",
     "triggerFulfillment": {
-    
+
     },
     "targetPage": "wait_call_page",
     "name": "4f77c829-cc75-43a3-b6c3-a646d136a0ee"
@@ -13,6 +13,11 @@
     "event": "sys.no-match-default",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"I am sorry, I didn't understand\")", "(say \"Could you please repeat?\")", "(say \"I'm sorry, what?\")", "(say \"I'm not sure I got it right. Could you repeat?\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Mi spiace, non ho capito\")", "(say \"Potresti cortesemente ripetere?\")", "(say \"Chiedo scusa?\")", "(say \"Non credo di aver capito. Potresti ripetere, per favore?\")" ]
         },
@@ -24,6 +29,11 @@
     "event": "sys.no-input-default",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"I don't think I heard correctly\")", "(say \"Could you please repeat?\")", "(say \"There must have been a problem... I heard nothing\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Non credo di aver sentito bene\")", "(say \"Puoi ripetere, per favore?\")", "(say \"Deve esserci stato un problema... Non ho sentito nulla\")" ]
         },

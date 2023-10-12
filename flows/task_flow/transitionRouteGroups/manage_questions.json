@@ -7,6 +7,11 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
+          "text": [ "(say \"I am going to the $session.params.targetLocationVal_orig\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
           "text": [ "(say \"Sto andando in $session.params.targetLocationVal_orig\")" ]
         },
         "languageCode": "it"
@@ -18,6 +23,11 @@
     "condition": "$session.params.searchableVal != \"\"",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"I am looking for $session.params.articlesval_orig $session.params.searchableval_orig\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Sto cercando $session.params.articlesval_orig $session.params.searchableval_orig\")" ]
         },
@@ -35,6 +45,13 @@
           "caseContent": [ {
             "message": {
               "text": {
+                "text": [ "(say \"I don not have a specific destination\")" ]
+              },
+              "languageCode": "en-us"
+            }
+          }, {
+            "message": {
+              "text": {
                 "text": [ "(say \"Al momento non ho una destinazione specifica\")" ]
               },
               "languageCode": "it"
@@ -42,6 +59,13 @@
           } ]
         }, {
           "caseContent": [ {
+            "message": {
+              "text": {
+                "text": [ "(say \"I am not going anywhere\")" ]
+              },
+              "languageCode": "en-us"
+            }
+          }, {
             "message": {
               "text": {
                 "text": [ "(say \"Non sto andando da nessuna parte\")" ]
@@ -58,6 +82,11 @@
     "condition": "$session.params.searchableVal = \"\"",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"I am not looking for anything\")", "(say \"Nothing in particular\")", "(say \"I am looking for nothing at the moment\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Non sto cercando nulla al momento\")", "(say \"Nulla di particolare\")", "(say \"Al momento niente\")" ]
         },

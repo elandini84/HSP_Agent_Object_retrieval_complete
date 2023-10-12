@@ -2,7 +2,7 @@
   "name": "2a479438-553e-4943-88cf-3c86dc910e29",
   "displayName": "wait_call_page",
   "form": {
-  
+
   },
   "entryFulfillment": {
     "setParameterActions": [ {
@@ -14,6 +14,11 @@
     "intent": "human_says_ehyR1",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"Yes? How can I help?\")", "(say \"What can I do for you?\")", "(say \"Yes? Do you need anything?\")", "(say \"That's me! How can I help you?\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Sì? Come posso aiutarti?\")", "(say \"Dimmi pure\")", "(say \"Sì? Ti serve qualcosa?\")", "(say \"Eccomi! Come posso esserti d'aiuto?\")" ]
         },
@@ -37,6 +42,11 @@
     "event": "sys.no-match-default",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"If you want to talk with me, try and say: Hey R1!\")", "(say \"I didn't understand it very well. You wanted something? Try to say: Hey R1\")", "(say \"I'm sorry, I didn't get it. If you were talking to me, try to say: Hey R1\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Se vuoi iniziare una conversazione prova a dire: Ehi R1!\")", "(say \"Non ho capito bene. Volevi qualcosa? Prova a dirmi: Ehi R1\")", "(say \"Mi spiace, non ho capito. Se stavi parlando con me, prova a dirmi: Ehi R1\")" ]
         },

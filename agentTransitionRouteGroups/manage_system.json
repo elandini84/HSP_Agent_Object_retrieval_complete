@@ -52,6 +52,11 @@
           "text": [ "(dialogReset) (say \"Reset completo. Ripartiamo dalla selezione della lingua\")", "(dialogReset) (say \"Sistema resettato. Entro breve si potrá ripartire dalla selezione della lingua\")" ]
         },
         "languageCode": "it"
+      }, {
+        "text": {
+          "text": [ "(dialogReset) (say \"My system is going to reset now. We will go back to language selection\")", "(dialogReset) (say \"I am going through a complete reset. At the end of it you will need to set the language again\")" ]
+        },
+        "languageCode": "en-us"
       } ]
     },
     "targetFlow": "language_selection_flow",
@@ -64,6 +69,11 @@
           "text": [ "(say \"Rilevato errore. Per favore attendere\")", "(say \"Ho riscontrato un errore grave. Mi spiace, ma devo chiederti di aspettare\")" ]
         },
         "languageCode": "it"
+      }, {
+        "text": {
+          "text": [ "(say \"Error detected. Please wait\")", "(say \"I am experiencing some problems. Please wait\")" ]
+        },
+        "languageCode": "en-us"
       } ]
     },
     "name": "9503e65b-368c-4368-ae90-69deb7dfd730"
@@ -75,6 +85,11 @@
           "text": [ "(say \"Il comando non é stato riconosciuto. Potresti ripetere?\")", "(say \"Credo di non aver capito cosa tu voglia che faccia. Puoi ripetere?\")" ]
         },
         "languageCode": "it"
+      }, {
+        "text": {
+          "text": [ "(say \"Unknown command. Please repeat\")", "(say \"I cannot recognize the command you just sent me. Can you repeat, please?\")" ]
+        },
+        "languageCode": "en-us"
       } ]
     },
     "name": "9c7cfe71-33be-4470-a436-3dfdc2ae0905"

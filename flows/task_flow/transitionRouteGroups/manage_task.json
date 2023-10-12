@@ -23,6 +23,11 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
+          "text": [ "(say \"Ok. got it. I am going back to my spot. Soon you'll be able to wake me up with: hey R1\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
           "text": [ "(resetHome) (say \"Ok, ricevuto. Torneró al mio posto. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
         },
         "languageCode": "it"
@@ -74,6 +79,11 @@
     "intent": "human_says_simpleReset",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"Ok. got it. soon you'll be able to wake me up with: hey R1\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(reset) (say \"Ok, ricevuto. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
         },
