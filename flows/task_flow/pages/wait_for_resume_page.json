@@ -2,15 +2,20 @@
   "name": "14eeaeab-6a97-456f-a2f2-df48d79642fc",
   "displayName": "wait_for_resume_page",
   "form": {
-  
+
   },
   "entryFulfillment": {
-  
+
   },
   "transitionRoutes": [ {
     "intent": "human_says_resume",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(resume) (say \"Ok, I'll proceed with what I was doing.\")", "(resume) (say \"Ok, I am going to resume my task then\")", "(resume) (say \"Ok, time to get back on track.\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(resume) (say \"Ok, riparto con quello che stavo facendo.\")", "(resume) (say \"Ok, allora riprendo la mia attivitá\")", "(resume) (say \"Ben, si riparte\")" ]
         },
@@ -24,6 +29,11 @@
     "event": "sys.no-match-default",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"I am on a break right now. To make me move again, tell me something like: Resume or go on\")", "(say \"I cannot execute this command at the moment. To make go back to my previous task, tell me something like: go on or resume\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Al momento sono in pausa. Per farmi ripartire, dimmi qualcosa come: Riparti o riprendi\")", "(say \"Non sono in grado di eseguire questo comando. Per farmi ripartire, dimmi qualcosa come: Riparti o riprendi\")", "(say \"Sono impossibilitato al momento. Se vuoi che riprenda il mio normale funzionamento, dì qualcosa come: Riparti o riprendi\")" ]
         },

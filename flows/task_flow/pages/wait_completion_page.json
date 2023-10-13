@@ -2,15 +2,20 @@
   "name": "2c4f6fe0-3b65-478f-af60-f86c58952394",
   "displayName": "wait_completion_page",
   "form": {
-  
+
   },
   "entryFulfillment": {
-  
+
   },
   "transitionRoutes": [ {
     "intent": "system_says_notFound",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"I couldn't find $session.params.articlesVal_orig $session.params.searchableVal_orig. What should I do??\")", "(say \"I wasn't able to find $session.params.articlesVal_orig $session.params.searchableVal_orig. What do you want me to do?\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Non ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Cosa devo fare?\")", "(say \"Non ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Cosa vuoi che faccia?\")" ]
         },
@@ -23,6 +28,11 @@
     "intent": "system_says_found",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(navpos) (say \"I found $session.params.articlesVal_orig $session.params.searchableVal_orig. Do you need anything else?\")", "(navpos) (say \"I found $session.params.articlesVal_orig $session.params.searchableVal_orig. Do you want me to do something else?\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(navpos) (say \"Ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Ti serve altro?\")", "(navpos) (say \"Ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Vuoi che faccia altro?\")" ]
         },
@@ -46,6 +56,11 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
+          "text": [ "(say \"I arrived in the $session.params.targetLocationVal_orig. Do you need anything else?\")", "(say \"I am in the $session.params.targetLocationVal_orig. Do you want me to do anything else?\")", "(say \"I am in the $session.params.targetLocationVal_orig. Do you need something else?\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
           "text": [ "(say \"Sono arrivato in $session.params.targetLocationVal_orig. Ti serve altro?\")", "(say \"Mi trovo in $session.params.targetLocationVal_orig. Vuoi che faccia altro?\")", "(say \"Sono in $session.params.targetLocationVal_orig. Serve altro?\")" ]
         },
         "languageCode": "it"
@@ -68,6 +83,11 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
+          "text": [ "(say \"Unfortunately there was a navigation error. I did not reach my target location\")", "(say \"The target destination has not been reached. There was a problem with the navigation\")", "(say \"Navigation problem. Please wait\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
           "text": [ "(say \"Purtroppo c'è stato un errore di navigazione. Non ho raggiunto il mio obiettivo\")", "(say \"La destinazione non è stata raggiunta. C'è stato un errore di navigazione\")", "(say \"Problema alla navigazione. Per favore attendere\")" ]
         },
         "languageCode": "it"
@@ -80,6 +100,11 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
+          "text": [ "(say \"I may have found $session.params.articlesVal_orig $session.params.searchableVal_orig. I'll stop a moment, just to check\")", "(say \"I may have found $session.params.articlesVal_orig $session.params.searchableVal_orig. Let me have a look\")", "(say \"Mi sembra di aver visto $session.params.articlesVal_orig $session.params.searchableVal_orig. Provo a controllare meglio\")", "(say \"Mi sembra di aver visto $session.params.articlesVal_orig $session.params.searchableVal_orig. Aspetta che controllo meglio\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
           "text": [ "(say \"Potrei aver trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Provo a controllare meglio\")", "(say \"Potrei aver trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Fammi guardare meglio\")", "(say \"Mi sembra di aver visto $session.params.articlesVal_orig $session.params.searchableVal_orig. Provo a controllare meglio\")", "(say \"Mi sembra di aver visto $session.params.articlesVal_orig $session.params.searchableVal_orig. Aspetta che controllo meglio\")" ]
         },
         "languageCode": "it"
@@ -90,6 +115,11 @@
     "intent": "system_says_maybeFalse",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"Ok my bad. I'll just continue with the research\")", "(say \"False alarm. I'll keep on searching\")", "(say \"No, it wasn't what I am looking for. I'll go on.\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Ok no. Mi ero sbagliata. Proseguo la ricerca\")", "(say \"Falso allarme. Vado avanti\")", "(say \"No, non era quello che cercavo. Vado avanti\")" ]
         },
