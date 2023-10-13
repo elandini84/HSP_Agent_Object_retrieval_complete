@@ -2,10 +2,15 @@
   "name": "a5839975-132f-4b66-ba2e-a0be4281b0bc",
   "displayName": "language_selection_page",
   "form": {
-  
+
   },
   "entryFulfillment": {
     "messages": [ {
+      "text": {
+        "text": [ "(say \"Good day to you. In which language would you like me to speak?\")", "(say \"Hello there! Which language would you like me to use?\")", "(say \"Greetings. In which language would you like to conversate with me?\")" ]
+      },
+      "languageCode": "en-us"
+    }, {
       "text": {
         "text": [ "(say \"Buongiorno a te. Che lingua vuoi che usi?\")", "(say \"Ciao. Che lingua vuoi che usi?\")", "(say \"Salve. In che lingua vorresti parlare con me?\")" ]
       },
@@ -16,6 +21,11 @@
     "intent": "human_sets_language",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(setLanguage $session.params.languageCode) (say \"Ok, you selected: $intent.params.languageCode.original\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(setLanguage $session.params.languageCode) (say \"Ok, hai selezionato: $intent.params.languageCode.original\")" ]
         },
@@ -33,6 +43,11 @@
     "event": "sys.no-match-default",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "(say \"I don't think I got that. What language do you want me to use?\")", "(say \"You should tell me the language to use...\")", "(say \"Could you please repeat?\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
         "text": {
           "text": [ "(say \"Non credo di aver capito. Che lingua vuoi che usi?\")", "(say \"Dovresti indicarmi la lingua da usare...\")", "(say \"Potresti ripetere?\")" ]
         },
