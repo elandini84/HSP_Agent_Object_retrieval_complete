@@ -100,7 +100,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(say \"I may have found $session.params.articlesVal_orig $session.params.searchableVal_orig. I'll stop a moment, just to check\")", "(say \"I may have found $session.params.articlesVal_orig $session.params.searchableVal_orig. Let me have a look\")", "(say \"Mi sembra di aver visto $session.params.articlesVal_orig $session.params.searchableVal_orig. Provo a controllare meglio\")", "(say \"Mi sembra di aver visto $session.params.articlesVal_orig $session.params.searchableVal_orig. Aspetta che controllo meglio\")" ]
+          "text": [ "(say \"I may have found $session.params.articlesVal_orig $session.params.searchableVal_orig. I'll stop a moment, just to check\")", "(say \"I may have found $session.params.articlesVal_orig $session.params.searchableVal_orig. Let me have a look\")", "(say \"I think I just saw $session.params.articlesVal_orig $session.params.searchableVal_orig. I'll try and have a look\")" ]
         },
         "languageCode": "en-us"
       }, {

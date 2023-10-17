@@ -6,7 +6,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(say \"Ok. I'll wait here. Just tell me when you want me to resume my task\")" ]
+          "text": [ "(stop) (say \"Ok. I'll wait here. Just tell me when you want me to resume my task\")" ]
         },
         "languageCode": "en-us"
       }, {
@@ -23,7 +23,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(say \"Ok. got it. I am going back to my spot. Soon you'll be able to wake me up with: hey R1\")" ]
+          "text": [ "(resetHome) (say \"Ok. got it. I am going back to my spot. Soon you'll be able to wake me up with: hey R1\")" ]
         },
         "languageCode": "en-us"
       }, {
@@ -80,7 +80,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(say \"Ok. got it. soon you'll be able to wake me up with: hey R1\")" ]
+          "text": [ "(reset) (say \"Ok. got it. soon you'll be able to wake me up with: hey R1\")" ]
         },
         "languageCode": "en-us"
       }, {
