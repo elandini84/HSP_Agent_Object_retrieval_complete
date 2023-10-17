@@ -83,6 +83,5 @@
   },
   "advancedSettings": {
     "enabled": true
-  },
-  "agentTransitionRouteGroups": [ "manage_system" ]
+  }
 }
