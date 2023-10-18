@@ -9,7 +9,7 @@
   },
   "transitionRoutes": [ {
     "intent": "human_says_resume",
-    "condition": "$session.params.searchableVal == null AND $session.params.destinationVal == null",
+    "condition": "$session.params.searchableVal = null AND $session.params.destinationVal = null",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
