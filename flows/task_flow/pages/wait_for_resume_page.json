@@ -9,6 +9,24 @@
   },
   "transitionRoutes": [ {
     "intent": "human_says_resume",
+    "condition": "$session.params.searchableVal = null AND $session.params.destinationVal = null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(resume) (say \"Ok, I'm here if you need me.\")", "(resume) (say \"Ok, Ready when you are\")", "(resume) (say \"Ok, time to get back on track.\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
+          "text": [ "(resume) (say \"Ok, sono qui se hai bisogno.\")", "(resume) (say \"Ok, fammi sapere se ti serve qualcosa\")", "(resume) (say \"Bene, sono pronto ad aiutarti\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "targetPage": "wait_completion_page",
+    "name": "b94c3b9a-e95f-4caf-89fa-d0b9fdf247a8"
+  }, {
+    "intent": "human_says_resume",
     "condition": "$session.params.searchableVal = \"\" AND $session.params.destinationVal = \"\"",
     "triggerFulfillment": {
       "messages": [ {
