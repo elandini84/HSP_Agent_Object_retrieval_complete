@@ -9,12 +9,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(say \"How can I help you?\")", "(say \"Please, tell me\")", "(say \"What do you need?\")", "(say \"How can I be of service to you?\")" ]
+          "text": [ "(navpos) (say \"How can I help you?\")", "(navpos) (say \"Please, tell me\")", "(navpos) (say \"What do you need?\")", "(navpos) (say \"How can I be of service to you?\")" ]
         },
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(say \"Come posso aiutarti?\")", "(say \"Dimmi pure\")", "(say \"Cosa ti serve?\")", "(say \"Come posso esserti d'aiuto?\")" ]
+          "text": [ "(navpos) (say \"Come posso aiutarti?\")", "(navpos) (say \"Dimmi pure\")", "(navpos) (say \"Cosa ti serve?\")", "(navpos) (say \"Come posso esserti d'aiuto?\")" ]
         },
         "languageCode": "it"
       } ],
