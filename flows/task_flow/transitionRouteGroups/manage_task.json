@@ -23,12 +23,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(resetHome) (say \"Ok. got it. I am going back to my spot. Feel free to ask if you need anything\")" ]
+          "text": [ "(reset_home) (say \"Ok. got it. I am going back to my spot. Feel free to ask if you need anything\")" ]
         },
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(resetHome) (say \"Ok, ricevuto. Torneró al mio posto. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
+          "text": [ "(reset_home) (say \"Ok, ricevuto. Torneró al mio posto. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
         },
         "languageCode": "it"
       } ],
