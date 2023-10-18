@@ -118,5 +118,6 @@
     },
     "targetPage": "wait_request_page",
     "name": "82909975-be89-4632-a07a-2d1bae261094"
-  } ]
+  } ],
+  "transitionRouteGroups": [ "manage_request" ]
 }
