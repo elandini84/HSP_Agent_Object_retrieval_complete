@@ -7,13 +7,6 @@
   "entryFulfillment": {
 
   },
-  "transitionRoutes": [ {
-    "intent": "system_says_arrived",
-    "triggerFulfillment": {
-
-    },
-    "name": "005e936c-4a19-40f3-bc77-ef759b9fe576"
-  } ],
   "transitionRouteGroups": [ "manage_task", "manage_questions", "manage_request" ],
   "agentTransitionRouteGroups": [ "manage_system" ]
 }
