@@ -73,7 +73,7 @@
         "value": ""
       } ]
     },
-    "targetPage": "wait_request_page",
+    "targetPage": "wait_home_page",
     "name": "1a92cff0-6d9c-4fc7-8436-4ed5eac78391"
   }, {
     "intent": "human_says_simpleReset",
