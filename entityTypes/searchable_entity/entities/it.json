@@ -1,7 +1,7 @@
 {
   "entities": [ {
     "value": "cup",
-    "synonyms": [ "tazza", "tazza da caffé", "tazza da latte", "tazzina", "tazzina da caffé" ],
+    "synonyms": [ "tazza", "tazza da caffè", "tazza da latte", "tazzina", "tazzina da caffè" ],
     "languageCode": "it"
   }, {
     "value": "cell phone",
@@ -57,7 +57,7 @@
     "languageCode": "it"
   }, {
     "value": "couch",
-    "synonyms": [ "divano", "sofá" ],
+    "synonyms": [ "divano", "sofà" ],
     "languageCode": "it"
   }, {
     "value": "potted plant",

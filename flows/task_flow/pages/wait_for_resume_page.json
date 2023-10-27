@@ -54,7 +54,7 @@
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(resume) (say \"Ok, riparto con quello che stavo facendo.\")", "(resume) (say \"Ok, allora riprendo la mia attivitá\")", "(resume) (say \"Bene, si riparte\")" ]
+          "text": [ "(resume) (say \"Ok, riparto con quello che stavo facendo.\")", "(resume) (say \"Ok, allora riprendo la mia attività\")", "(resume) (say \"Bene, si riparte\")" ]
         },
         "languageCode": "it"
       } ]

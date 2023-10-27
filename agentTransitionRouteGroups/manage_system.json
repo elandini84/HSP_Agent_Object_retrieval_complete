@@ -49,7 +49,7 @@
       } ],
       "messages": [ {
         "text": {
-          "text": [ "(dialogReset) (say \"Reset completo. Ripartiamo dalla selezione della lingua\")", "(dialogReset) (say \"Sistema resettato. Entro breve si potrá ripartire dalla selezione della lingua\")" ]
+          "text": [ "(dialogReset) (say \"Reset completo. Ripartiamo dalla selezione della lingua\")", "(dialogReset) (say \"Sistema resettato. Entro breve si potrà ripartire dalla selezione della lingua\")" ]
         },
         "languageCode": "it"
       }, {
@@ -82,7 +82,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(say \"Il comando non é stato riconosciuto. Potresti ripetere?\")", "(say \"Credo di non aver capito cosa tu voglia che faccia. Puoi ripetere?\")" ]
+          "text": [ "(say \"Il comando non è stato riconosciuto. Potresti ripetere?\")", "(say \"Credo di non aver capito cosa tu voglia che faccia. Puoi ripetere?\")" ]
         },
         "languageCode": "it"
       }, {

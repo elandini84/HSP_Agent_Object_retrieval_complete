@@ -28,7 +28,7 @@
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(reset) (say \"Ok, ricevuto. Torneró al mio posto. Entro breve potrai di nuovo interpellarmi.\")" ]
+          "text": [ "(reset) (say \"Ok, ricevuto. Tornerò al mio posto. Entro breve potrai di nuovo interpellarmi.\")" ]
         },
         "languageCode": "it"
       } ],
@@ -85,7 +85,7 @@
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(reset) (say \"Ok, ricevuto. Entro breve saró nuovamente disponibile.\")" ]
+          "text": [ "(reset) (say \"Ok, ricevuto. Entro breve sarò nuovamente disponibile.\")" ]
         },
         "languageCode": "it"
       } ],
