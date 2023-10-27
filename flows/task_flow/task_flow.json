@@ -6,7 +6,7 @@
     "triggerFulfillment": {
 
     },
-    "targetPage": "wait_call_page",
+    "targetPage": "wait_request_page",
     "name": "4f77c829-cc75-43a3-b6c3-a646d136a0ee"
   } ],
   "eventHandlers": [ {

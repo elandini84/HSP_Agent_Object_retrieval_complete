@@ -29,12 +29,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(navpos) (say \"I found $session.params.articlesVal_orig $session.params.searchableVal_orig. Do you need anything else?\")", "(navpos) (say \"I found $session.params.articlesVal_orig $session.params.searchableVal_orig. Do you want me to do something else?\")" ]
+          "text": [ "(say \"I found $session.params.articlesVal_orig $session.params.searchableVal_orig. Do you need anything else?\")", "(say \"I found $session.params.articlesVal_orig $session.params.searchableVal_orig. Do you want me to do something else?\")" ]
         },
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(navpos) (say \"Ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Ti serve altro?\")", "(navpos) (say \"Ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Vuoi che faccia altro?\")" ]
+          "text": [ "(say \"Ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Ti serve altro?\")", "(say \"Ho trovato $session.params.articlesVal_orig $session.params.searchableVal_orig. Vuoi che faccia altro?\")" ]
         },
         "languageCode": "it"
       } ],

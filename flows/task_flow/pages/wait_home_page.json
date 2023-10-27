@@ -1,0 +1,25 @@
+{
+  "name": "b0df449c-dd4d-487e-9987-b33478805019",
+  "displayName": "wait_home_page",
+  "form": {
+
+  },
+  "transitionRoutes": [ {
+    "intent": "system_says_arrived",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "(say \"Ok, I reached my spot. Ready when you are\")", "(say \"Ok, I arrived at my spot. Call if you need anything\")" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
+          "text": [ "(say \"Ok, ho raggiunto la mia postazione. Pronto quando lo sei tu\")", "(say \"Ok, sono tornato al mio posto. Chiama se ti serve qualcosa\")" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "targetPage": "wait_request_page",
+    "name": "0caa8612-ece3-4c75-8fae-4c44d6751c36"
+  } ]
+}

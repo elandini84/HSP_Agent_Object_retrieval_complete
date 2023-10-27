@@ -9,12 +9,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(say \"How can I help you?\")", "(say \"Please, tell me\")", "(say \"What do you need?\")", "(say \"How can I be of service to you?\")" ]
+          "text": [ "(navpos) (say \"How can I help you?\")", "(navpos) (say \"Please, tell me\")", "(navpos) (say \"What do you need?\")", "(navpos) (say \"How can I be of service to you?\")" ]
         },
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(say \"Come posso aiutarti?\")", "(say \"Dimmi pure\")", "(say \"Cosa ti serve?\")", "(say \"Come posso esserti d'aiuto?\")" ]
+          "text": [ "(navpos) (say \"Come posso aiutarti?\")", "(navpos) (say \"Dimmi pure\")", "(navpos) (say \"Cosa ti serve?\")", "(navpos) (say \"Come posso esserti d'aiuto?\")" ]
         },
         "languageCode": "it"
       } ],
@@ -71,7 +71,7 @@
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(reset_home) (say \"Ok, ricevuto. Torno al mio posto allora. Entro breve potrai di nuovo interpellarmi con: ehy, r1.\")" ]
+          "text": [ "(reset_home) (say \"Ok, ricevuto. Torno al mio posto allora. Entro breve potrai di nuovo interpellarmi.\")" ]
         },
         "languageCode": "it"
       } ],
@@ -116,7 +116,8 @@
         "value": ""
       } ]
     },
-    "targetPage": "wait_call_page",
+    "targetPage": "wait_home_page",
     "name": "82909975-be89-4632-a07a-2d1bae261094"
-  } ]
+  } ],
+  "transitionRouteGroups": [ "manage_request" ]
 }
