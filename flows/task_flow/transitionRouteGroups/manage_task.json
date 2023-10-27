@@ -23,12 +23,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(reset_home) (say \"Ok. got it. I am going back to my spot. Feel free to ask if you need anything\")" ]
+          "text": [ "(reset) (say \"Ok. got it. I am going back to my spot. Feel free to ask if you need anything\")" ]
         },
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(reset_home) (say \"Ok, ricevuto. Torneró al mio posto. Entro breve potrai di nuovo interpellarmi.\")" ]
+          "text": [ "(reset) (say \"Ok, ricevuto. Torneró al mio posto. Entro breve potrai di nuovo interpellarmi.\")" ]
         },
         "languageCode": "it"
       } ],
@@ -73,7 +73,7 @@
         "value": ""
       } ]
     },
-    "targetPage": "wait_home_page",
+    "targetPage": "wait_request_page",
     "name": "1a92cff0-6d9c-4fc7-8436-4ed5eac78391"
   }, {
     "intent": "human_says_simpleReset",
