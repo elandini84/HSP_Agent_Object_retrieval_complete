@@ -27,5 +27,13 @@
     "value": "study",
     "synonyms": [ "studio" ],
     "languageCode": "it"
+  }, {
+    "value": "laboratory",
+    "synonyms": [ "laboratorio", "stanza sensorizzata" ],
+    "languageCode": "it"
+  }, {
+    "value": "sofa_area",
+    "synonyms": [ "area sofá", "area divanetti" ],
+    "languageCode": "it"
   } ]
 }

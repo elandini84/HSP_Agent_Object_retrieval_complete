@@ -27,5 +27,13 @@
     "value": "study",
     "synonyms": [ "studio", "study" ],
     "languageCode": "en-us"
+  }, {
+    "value": "laboratory",
+    "synonyms": [ "laboratory", "sensorized room" ],
+    "languageCode": "it"
+  }, {
+    "value": "sofa_area",
+    "synonyms": [ "sofa area", "sofa_area" ],
+    "languageCode": "it"
   } ]
 }
