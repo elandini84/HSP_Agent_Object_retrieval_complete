@@ -14,12 +14,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(say \"I am sorry, I didn't understand\")", "(say \"Could you please repeat?\")", "(say \"I'm sorry, what?\")", "(say \"I'm not sure I got it right. Could you repeat?\")" ]
+          "text": [ "(cmd_unk)" ]
         },
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(say \"Mi spiace, non ho capito\")", "(say \"Potresti cortesemente ripetere?\")", "(say \"Chiedo scusa?\")", "(say \"Non credo di aver capito. Potresti ripetere, per favore?\")" ]
+          "text": [ "(cmd_unk)" ]
         },
         "languageCode": "it"
       } ]
