@@ -66,12 +66,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "(reset_home) (say \"Roger that. I am going back to my spot. Soon you'll be able to interact with me.\")" ]
+          "text": [ "(reset) (say \"Roger that. I am going back to my spot. Soon you'll be able to interact with me.\")" ]
         },
         "languageCode": "en-us"
       }, {
         "text": {
-          "text": [ "(reset_home) (say \"Ok, ricevuto. Torno al mio posto allora. Entro breve potrai di nuovo interpellarmi.\")" ]
+          "text": [ "(reset) (say \"Ok, ricevuto. Torno al mio posto allora. Entro breve potrai di nuovo interpellarmi.\")" ]
         },
         "languageCode": "it"
       } ],
@@ -116,7 +116,7 @@
         "value": ""
       } ]
     },
-    "targetPage": "wait_home_page",
+    "targetPage": "wait_request_page",
     "name": "82909975-be89-4632-a07a-2d1bae261094"
   } ],
   "transitionRouteGroups": [ "manage_request" ]
